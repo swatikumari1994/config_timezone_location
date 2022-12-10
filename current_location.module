@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * This is the module for timezone data.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function current_location_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.current_location':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>As a user, I should be able to see the Site location and the current time for the location.</p>';
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function current_location_theme() {
+  return [
+    'custom_timezone_block' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+      'template' => 'current-site-location',
+    ],
+  ];
+}

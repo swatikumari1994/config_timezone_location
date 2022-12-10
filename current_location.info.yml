@@ -1,0 +1,5 @@
+name: 'current_location'
+type: module
+description: 'Current Location'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

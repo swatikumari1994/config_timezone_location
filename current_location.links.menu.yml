@@ -1,0 +1,4 @@
+current_location:
+  title: 'TimeZone Setting Form'
+  parent: system.admin_config
+  route_name: current_location.ConfigCustomTimezone
