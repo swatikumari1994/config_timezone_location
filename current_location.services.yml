@@ -1,4 +1,0 @@
-services:
-  current_location.timezone_service:
-    class: Drupal\current_location\Services\CurrentLocationServices
-    arguments: ['@config.factory' , '@date.formatter']
