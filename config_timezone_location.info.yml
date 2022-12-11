@@ -1,0 +1,5 @@
+name: 'config_timezone_location'
+type: module
+description: 'Config Timezone Location'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
