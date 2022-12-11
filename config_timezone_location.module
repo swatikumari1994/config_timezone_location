@@ -2,7 +2,7 @@
 
 /**
  * @file
- * This is the module for timezone data.
+ * Contains config_timezone_location.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
