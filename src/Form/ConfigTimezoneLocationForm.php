@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * Config Timezone.
+ * 
+ * @file      providing the service set config form.
+ * @category  PHP
+ * @package   PHP_CodeSniffer
+ * @author    swati <swatiecekumari1994@gmail.com>
+ * @copyright 2022 drupal
+ * @license   http://localhost/drupal PHP License 7.0
+ * @link      http://localhost/drupal/admin/config/config-timezone-location/settings
+ */
 namespace Drupal\config_timezone_location\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
@@ -44,9 +55,9 @@ class ConfigTimezoneLocationForm extends ConfigFormBase
     }
 
     /**
-     * Defines configration form.
+     * Defines configration Form.
      *
-     * @param array $form
+     * @param array                                $form
      *   The Form.
      * @param \Drupal\Core\Form\FormStateInterface $form_state
      *   Form State.
@@ -98,7 +109,7 @@ class ConfigTimezoneLocationForm extends ConfigFormBase
     /**
      * Form submission handler.
      *
-     * @param array $form
+     * @param array                                $form
      *   An associative array.
      * @param \Drupal\Core\Form\FormStateInterface $form_state
      *   The current state of the form.
