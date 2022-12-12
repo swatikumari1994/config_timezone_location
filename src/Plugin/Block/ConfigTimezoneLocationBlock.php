@@ -169,19 +169,8 @@ ContainerFactoryPluginInterface
         return [
         '#theme' => 'custom_timezone_block',
         '#data' => $date_data,
-        '#cache' => ['max-age' => 0],
+        '#cache' => ['max-age' => 10],
         ];
-    }
-
-    /**
-     * Returns cache age.
-     *
-     * @return int
-     *   The cache age.
-     */
-    public function getCacheMaxAge()
-    {
-        return 0;
     }
 
 }
