@@ -2,7 +2,8 @@
 
 /**
  * Config Timezone.
- * 
+ * php version 7.3.28
+ *
  * @file      providing the service set config form.
  * @category  PHP
  * @package   PHP_CodeSniffer
@@ -57,10 +58,10 @@ class ConfigTimezoneLocationForm extends ConfigFormBase
     /**
      * Defines configration Form.
      *
-     * @param array                                $form
-     *   The Form.
-     * @param \Drupal\Core\Form\FormStateInterface $form_state
-     *   Form State.
+     * @param array                                $form       comment of the form.
+     *                                                         The Form.
+     * @param \Drupal\Core\Form\FormStateInterface $form_state comment of form state.
+     *                                                         Form State.
      * 
      * @return array
      *   Form definition array.
@@ -109,10 +110,11 @@ class ConfigTimezoneLocationForm extends ConfigFormBase
     /**
      * Form submission handler.
      *
-     * @param array                                $form
-     *   An associative array.
-     * @param \Drupal\Core\Form\FormStateInterface $form_state
-     *   The current state of the form.
+     * @param array                                $form       comment of the form.
+     *                                                         An associative
+     *                                                         array.
+     * @param \Drupal\Core\Form\FormStateInterface $form_state comment of form state.
+     *                                                         The state of form.
      * 
      * @return void
      *   Form definition array.
