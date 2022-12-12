@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Config Timezone.
+ * Config Timezon.
+ * php version 7.3.28
  * 
  * @file      providing the service set config form.
  * @category  PHP
@@ -21,7 +22,8 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Class Config Timezone Location Services
- *
+ * php version 7.3.28
+ * 
  * @category  PHP
  * @package   Drupalconfig_Timezone_LocationServices
  * @author    swati <swatiecekumari1994@gmail.com>
@@ -49,10 +51,10 @@ class ConfigTimezoneLocationServices
     /**
      * Class constructor.
      *
-     * @param \Drupal\Core\Config\ConfigFactoryInterface $configFactory
-     *   The configuration factory.
-     * @param \Drupal\Core\Datetime\DateFormatter        $dateFormatter
-     *   The date formatter service.
+     * @param \Drupal\Core\Config\ConfigFactoryInterface $configFactory comment of variable.
+     *                                                                  The configuration factory.
+     * @param \Drupal\Core\Datetime\DateFormatter        $dateFormatter comment of variable.
+     *                                                                  The date formatter service.
      */
     public function __construct(ConfigFactoryInterface $configFactory , 
         DateFormatter $dateFormatter
@@ -64,8 +66,8 @@ class ConfigTimezoneLocationServices
     /**
      *  Class Container.
      * 
-     * @param Symfony\Component\DependencyInjection\ContainerInterface $container
-     * Container.
+     * @param Symfony\Component\DependencyInjection\ContainerInterface $container comment.
+     *                                                                            Container.
      * 
      * @return object
      */
