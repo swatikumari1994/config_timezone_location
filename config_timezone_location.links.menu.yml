@@ -1,4 +1,0 @@
-config_timezone_location:
-  title: 'TimeZone Setting Form'
-  parent: system.admin_config
-  route_name: config_timezone_location.ConfigCustomTimezone
