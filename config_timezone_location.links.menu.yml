@@ -1,0 +1,5 @@
+config_timezone_location.ConfigCustomTimezone:
+  title: 'TimeZone Setting Form'
+  description: 'Configure settings for the timezone.'
+  route_name: config_timezone_location.ConfigCustomTimezone
+  parent: 'system.admin_config_development'
